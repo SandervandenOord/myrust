@@ -1,11 +1,12 @@
 fn main() {
-    let mut x = "String literal";
-    let mut y = String::from("some text");
+    let mut x = "String literal".to_owned();
+    let y = String::from("some text");
     x = x + "test";
     println!("{y}");
     println!("{x}");
 
     let s1 = "Hello";
     let s2 = " World";
-    let result = s1.to_string() + s2;
+    let result = s1.to_owned() + s2;
+    println!("{result}");
 }
