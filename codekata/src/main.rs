@@ -1,3 +1,4 @@
+mod array_multiplication;
 mod cockroach_speed;
 mod dna_to_rna;
 mod double_chars;
